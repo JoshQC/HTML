@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td{
+            border: solid 1px black;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
     <H1>Tabla</H1>
-    <table style="border: solid 1px black;">
+    <table>
         <thead>
             <tr>
                 <th>Pokemon</th>
@@ -97,5 +102,34 @@
     <h2>Parrafo</h2>
     <p>Lorem <i>ipsum</i> dolor sit amet, consectetur adipisicing elit. Debitis reiciendis quos quisquam vel cumque voluptate, vitae laudantium. 
         Rerum iure tempora incidunt <b>dolore</b>, blanditiis earum, quia quaerat repudiandae nobis inventore minus.</p>
+    
+    <h2>Inputs</h2>
+    <ol>
+        <li>
+            <label for="txt">Input de Texto:</label>
+            <input type="text" id="txt">
+        </li>
+        <li>
+            <label for="time">Input de Tiempo:</label>
+            <input type="time" id="time">
+        </li>
+        <li>
+            <label for="num">Input de Numero:</label>
+            <input type="number" id="num">
+        </li>
+        <li>
+            <label for="file">Input de Archivo:</label>
+            <input type="file" id="file">
+        </li>
+        <li>
+            <label for="color">Input de Colores:</label>
+            <input type="color" id="color">
+        </li>
+        <li>
+            <label for="sub">Input de submit:</label>
+            <input type="submit" id="sub">
+        </li>
+    </ol>
+
 </body>
 </html>
